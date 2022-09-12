@@ -1,0 +1,54 @@
+CRITICAL - 2021-02-04 07:59:40 --> file_get_contents(https://api.jadipandai.com/belanegara-backend/getData/highlight): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/Applications/X...', 140, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Models/HomeModel.php(140): file_get_contents('https://api.jad...', false, Resource id #115)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Home.php(44): App\Models\HomeModel->getHighlight('TkUyNFFtS05maEF...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Home->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-04 08:00:28 --> file_get_contents(): SSL: Undefined error: 0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/Applications/X...', 140, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Models/HomeModel.php(140): file_get_contents('https://api.jad...', false, Resource id #115)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Home.php(44): App\Models\HomeModel->getHighlight('akNOWWRiUkZhYk5...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Home->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-04 08:01:34 --> file_get_contents(): SSL: Undefined error: 0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/Applications/X...', 140, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Models/HomeModel.php(140): file_get_contents('https://api.jad...', false, Resource id #116)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Home.php(44): App\Models\HomeModel->getHighlight('RkZzUVp1Z1VPNjR...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Home->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-04 08:02:24 --> file_get_contents(): SSL: Undefined error: 0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/Applications/X...', 140, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Models/HomeModel.php(140): file_get_contents('https://api.jad...', false, Resource id #115)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Home.php(44): App\Models\HomeModel->getHighlight('VlJnWUZiVzRFQUZ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Home->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-04 08:03:28 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/Applications/X...', 140, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Models/HomeModel.php(140): file_get_contents('https://api.jad...', false, Resource id #115)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Home.php(44): App\Models\HomeModel->getHighlight('R3lDeXkxeWhrOXB...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Home->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-04 08:04:02 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/Applications/X...', 140, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Models/HomeModel.php(140): file_get_contents('https://api.jad...', false, Resource id #115)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Home.php(44): App\Models\HomeModel->getHighlight('aTBtMW5BV2xObGZ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Home->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2021-04-05 20:02:25 --> Uncaught ErrorException: include(): Filename cannot be empty in /Applications/XAMPP/xamppfiles/htdocs/KN-landing/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/KN-landing/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', '/Applications/X...', 308, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/KN-landing/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Applications/XAMPP/xamppfiles/htdocs/KN-landing/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

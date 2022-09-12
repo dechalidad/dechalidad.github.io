@@ -1,0 +1,63 @@
+CRITICAL - 2021-02-07 20:42:45 --> file_get_contents(https://api.jadipandai.com/belanegara-backend/getData/highlight): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/Applications/X...', 140, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Models/HomeModel.php(140): file_get_contents('https://api.jad...', false, Resource id #115)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Home.php(44): App\Models\HomeModel->getHighlight('bDRsTFNuMk9JQnd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Home->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-07 22:11:11 --> Too few arguments to function App\Controllers\Master\Event::form(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php on line 920 and at least 1 expected
+#0 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Master\Event->form()
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Event))
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-07 22:18:52 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Master/Event.php(107): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Master\Event->getData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Event))
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-07 22:20:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Master/Event.php(107): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Master\Event->getData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Event))
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-07 22:27:30 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Master/Event.php(107): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Master\Event->getData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Event))
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-07 22:28:33 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Master/Event.php(107): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Master\Event->getData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Event))
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-07 22:30:46 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Master/Event.php(107): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Master\Event->getData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Event))
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-07 22:32:04 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/app/Controllers/Master/Event.php(107): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Master\Event->getData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Event))
+#4 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/belanegara-frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
